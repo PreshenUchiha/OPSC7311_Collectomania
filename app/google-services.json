@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "151519414900",
+    "project_id": "icollect-3fe02",
+    "storage_bucket": "icollect-3fe02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151519414900:android:ca3d1642ca3f17c6705f21",
+        "android_client_info": {
+          "package_name": "com.devops.collectomania"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151519414900-3ghodi87cbtdabfkrkhiifov23cr332j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyConrPdJzp84caBY9qWUCYt85pIv_0i6eM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151519414900-3ghodi87cbtdabfkrkhiifov23cr332j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151519414900:android:92e41bdb19f3dd4e705f21",
+        "android_client_info": {
+          "package_name": "com.devops.icollect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151519414900-3ghodi87cbtdabfkrkhiifov23cr332j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyConrPdJzp84caBY9qWUCYt85pIv_0i6eM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151519414900-3ghodi87cbtdabfkrkhiifov23cr332j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

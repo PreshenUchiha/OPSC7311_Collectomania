@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.devops.collectomania.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_myCollection"
+            app:destination="@id/nav_myCollection" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_logout"
+            app:destination="@id/nav_logout" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_myProgress"
+            app:destination="@id/nav_myProgress" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_profile"
+            app:destination="@id/nav_profile" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_addItem"
+            app:destination="@id/nav_addItem" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_profile2"
+            app:destination="@id/nav_profile" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.devops.collectomania.ui.profile.ProfileFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_myCollection"
+        android:name="com.devops.collectomania.ui.collections.CollectionsFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_collections" >
+        <action
+            android:id="@+id/action_nav_myCollection_to_nav_item"
+            app:destination="@id/nav_item" />
+        <action
+            android:id="@+id/action_nav_myCollection_to_nav_item2"
+            app:destination="@id/nav_item" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_addItem"
+        android:name="com.devops.collectomania.ui.addItems.AddItemsFragment"
+        android:label="@string/menu_addItem"
+        tools:layout="@layout/fragment_add_items" />
+
+    <fragment
+        android:id="@+id/nav_myProgress"
+        android:name="com.devops.collectomania.ui.myProgress.MyProgressFragment"
+        android:label="@string/menu_myProgress"
+        tools:layout="@layout/fragment_progress" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.devops.collectomania.ui.logout.LogoutFragment"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/fragment_logout" />
+
+    <fragment
+        android:id="@+id/nav_item"
+        android:name="com.devops.collectomania.ui.items.ItemsFragment"
+        android:label="Items"
+        tools:layout="@layout/fragment_items" >
+        <action
+            android:id="@+id/action_nav_item_to_nav_itemDesc"
+            app:destination="@id/nav_itemDesc" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_itemDesc"
+        android:name="com.devops.collectomania.ui.viewItemDesc.ViewItemDescFragment"
+        android:label="Items"
+        tools:layout="@layout/fragment_item_description" />
+
+</navigation>
